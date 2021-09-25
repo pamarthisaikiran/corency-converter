@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  height: 120vh;
+  background-size: cover;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 50px;
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+  }
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f3efcaf8;
+  font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  .para {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #f3efcaf8;
+    font-size: 16px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .para {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #f3efcaf8;
+    font-size: 22px;
+  }
+}
+
+.sign {
+  text-align: center;
+  align-self: center;
+}
+.input-a {
+  outline: none;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+}
+.input-b {
+  outline: none;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+}
+.select {
+  outline: none;
+  border-radius: 3x;
+  border-width: 0px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.option {
+  color: black;
+}
